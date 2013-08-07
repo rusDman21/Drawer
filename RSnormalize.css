@@ -217,25 +217,19 @@ ul, ol, li {
     display: table;
     clear: both; }
 
-/* ==========================================================================
- * Colors
- * ========================================================================== */
-/* ==========================================================================
- * Media Queries
- * ========================================================================== */
 .container {
-  background: #dddddd;
   width: 960px;
   margin: 0 auto; }
 
 .panel {
   border-top: 2px solid black;
-  background: orange;
   width: 600px;
   margin: 0 auto; }
 
 .panel-stage {
-  background: blue;
+  border: 1px solid black;
+  display: none;
+  background: #aaaaaa;
   width: 80%;
   margin: 0 auto;
   height: 200px; }
